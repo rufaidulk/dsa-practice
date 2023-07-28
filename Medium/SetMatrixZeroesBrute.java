@@ -1,6 +1,7 @@
 /**
  * Brute force.
  * Won't work if the input matrix consists -1
+ * TC = (n * m) * (n + m){marking negative} + (n * m) {final loop to mark zero}
 /*
 class Solution {
     public void setZeroes(int[][] matrix) {
